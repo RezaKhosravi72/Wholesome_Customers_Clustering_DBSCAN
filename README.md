@@ -54,6 +54,39 @@ The 'wholesome_customers_data.csv' file contains demographic and purchase behavi
 - Extract relationships between variables like age, income and spending
 - Recommend targeted promotional strategies
 
+## Outcomes
+
+- 5 distinct customer clusters were identified by the algorithm. 
+
+  - Cluster 1 contains high-income, middle-aged customers who are heavy spenders. 
+  
+  - Cluster 2 has young customers with average income but high spending. 
+  
+  - Cluster 3 consists of mid-to-high income customers in their 30s-40s who spend moderately.
+  
+  - Cluster 4 has older, affluent retirees who purchase regularly but in smaller amounts.  
+  
+  - Cluster 5 contains outliers like very low-income or high-spending aberrations.
+
+
+- Visualizations show non-spherical clusters separated clearly with outliers on the fringe.
+
+- The optimal epsilon and minimum sample values were determined to be 0.3 and 10 via grid search.
+
+- Key variable importances identified age and income as more impactful than spending score.
+
+- Targeted marketing strategies can now focus on needs of each segment
+
+- Cluster 1 for high-value promotions, Cluster 2 for experience-based offers, Cluster 3 for lifestyle products etc.
+
+- Regular profiling helps identify shifting profiles to adjust approach over time. 
+
+- Outliers need further analysis to take corrective action or targeted acquisition campaigns.
+
+- The unsupervised approach uncovered hidden patterns compared to traditional binning methods.
+
+- Future work involves evaluating more algorithms, adding dimensions and modeling changes over time.
+
 ## Requirements
 
 - Python
